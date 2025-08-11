@@ -1,0 +1,19 @@
+{
+  "name": "wa-gateway-os",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^6.7.8",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "pino": "^9.0.0",
+    "pino-pretty": "^11.2.2",
+    "qrcode": "^1.5.4"
+  }
+}
